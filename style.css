@@ -19,6 +19,7 @@ header {
     border-bottom: 1px solid #333;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    flex-wrap: wrap; /* Allows the header to adjust on smaller screens */
 }
 
 header h1 {
@@ -32,8 +33,14 @@ header h1 span {
     color: #555;
 }
 
+nav {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 nav a {
-    margin-left: 15px;
     text-decoration: none;
     color: #333;
     font-weight: bold;
@@ -58,6 +65,7 @@ nav a:hover::after {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap; /* Enables wrapping for smaller screens */
 }
 
 .profile-img {
@@ -92,14 +100,43 @@ nav a:hover::after {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.about p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-    color: #333;
-}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
 
-.about a {
-    color: #007acc;
-    text-decoration: none;
-    font-weight: bold;
+    header h1 {
+        font-size: 1.4em;
+    }
+
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .profile-img {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .info h2 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .about, .news, .publications {
+        margin: 20px 10px;
+        padding: 15px;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 0.9em;
+    }
 }
