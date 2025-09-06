@@ -27,8 +27,8 @@ I am a member of [CASys](http://casys.kaist.ac.kr/) (Computer Architecture and S
 -->
 
 ## Education
-- Mar. 2025 ~ Current: M.S. in Computer Science, *KAIST*  
-- Mar. 2020 ~ Feb. 2025: B.S. in Electrical Engineering & Computer Science, *KAIST*  
+- **Mar. 2025 ~ Current: M.S**. in Computer Science, *KAIST*  
+- **Mar. 2020 ~ Feb. 2025: B.S**. in Electrical Engineering & Computer Science, *KAIST*  
 
 ---
 

@@ -1,11 +1,15 @@
+# Site settings
 title: "Dongha Kim"
 description: "Master Student @ KAIST, CASYS Lab"
 url: "https://kimddong0069.github.io"
 baseurl: "" # Empty for github.io
 
+# Theme
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air" # default, air, aqua, dark, dirt, neon, mint, plum, sunrise
 
+# Navigation
 defaults:
   - scope:
       path: ""
@@ -16,6 +20,7 @@ defaults:
 include:
   - _pages
 
+# Author profile
 author:
   name: "Dongha Kim"
   avatar: "/assets/profile.jpeg"
@@ -24,12 +29,22 @@ author:
   email: "kimddong@kaist.ac.kr"
   links:
     - label: "GitHub"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/kimddong0069"
     - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/iamdongha/"
     - label: "CV"
+      icon: "fas fa-fw fa-file-alt"
       url: "/assets/Dongha_Kim_CV.pdf"
 
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-include-cache
+
+whitelist:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
