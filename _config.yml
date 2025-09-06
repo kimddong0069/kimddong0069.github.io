@@ -1,0 +1,35 @@
+title: "Dongha Kim"
+description: "Master Student @ KAIST, CASYS Lab"
+url: "https://kimddong0069.github.io"
+baseurl: "" # Empty for github.io
+
+theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      header:
+        nav: "main"
+
+include:
+  - _pages
+
+author:
+  name: "Dongha Kim"
+  avatar: "/assets/profile.jpeg"
+  bio: "Master Student in Computer Science & Electrical Engineering @ KAIST"
+  location: "Daejeon, South Korea"
+  email: "kimddong@kaist.ac.kr"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/kimddong0069"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/iamdongha/"
+    - label: "CV"
+      url: "/assets/Dongha_Kim_CV.pdf"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

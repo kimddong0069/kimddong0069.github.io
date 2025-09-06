@@ -1,0 +1,17 @@
+# Jekyll build
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Local archives
+archive/
+
+# OS files
+.DS_Store
+
+# Editor/IDE
+*.swp
+*.swo
+.idea/
+.vscode/
