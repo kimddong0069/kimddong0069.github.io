@@ -3,7 +3,7 @@ description: "Master Student @ KAIST, CASYS Lab"
 url: "https://kimddong0069.github.io"
 baseurl: "" # Empty for github.io
 
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
 
 defaults:
